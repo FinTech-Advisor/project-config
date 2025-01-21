@@ -2,7 +2,7 @@ server:
   port: 3337
 
 spring:
-  # 데이터베이스 설정
+  # 데이터 베이스 설정
   datasource:
     driverClassName: oracle.jdbc.driver.OracleDriver
     url: jdbc:oracle:thin:@${db.host}:XE
@@ -43,11 +43,7 @@ springdoc:
 
 # cors 설정
 cors:
-  allowed: http://advisor-board-service.koreait.xyz,http://localhost:3337
-
-# 프론트앤드 도메인
-front:
-  domain: http://advisor-board-service.koreait.xyz,http://localhost:3337
+  allowed: https://advisor-eureka-server.koreait.xyz, http://localhost:3330
 
 # 유레카 설정
 eureka:
