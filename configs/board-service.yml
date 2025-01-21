@@ -43,7 +43,7 @@ springdoc:
 
 # cors 설정
 cors:
-  allowed: https://advisor-eureka-server.koreait.xyz, http://localhost:3330
+  allowed: https://advisor-config-server.koreait.xyz, http://localhost:3330
 
 # 유레카 설정
 eureka:
