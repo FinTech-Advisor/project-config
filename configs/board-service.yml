@@ -47,7 +47,7 @@ cors:
 
 # 프론트앤드 도메인
 front:
-  domain: http://advisor-board-service.silvertale.xyz,http://localhost:3337
+  domain: http://advisor-board-service.koreait.xyz,http://localhost:3337
 
 # 유레카 설정
 eureka:
