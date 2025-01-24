@@ -57,6 +57,18 @@ spring:
             - Path=/api/v1/message/**
           filters:
             - RewritePath=/api/v1/message/?(?<path>.*),/$\{path}
+        - id: bank-service
+          uri: lb://bank-service
+          predicates:
+            - Path=/api/v1/bank/**
+          filters:
+            - RewritePath=/api/v1/bank/?(?<path>.*),/$\{path}
+        - id: card-service
+          uri: lb://card-service
+          predicates:
+            - Path=/api/v1/card/**
+          filters:
+            - RewritePath=/api/v1/card/?(?<path>.*),/$\{path}
 
 # 유레카 설정
 eureka:
