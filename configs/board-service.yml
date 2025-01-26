@@ -43,11 +43,7 @@ springdoc:
 
 # cors 설정
 cors:
-  allowed: http://advisor-board-service.koreait.xyz,http://localhost:3337
-
-# 프론트앤드 도메인
-front:
-  domain: http://advisor-board-service.koreait.xyz,http://localhost:3337
+  allowed: http://pintech.koreait.xyz,http://localhost:3000
 
 # 유레카 설정
 eureka:
