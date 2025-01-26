@@ -1,5 +1,5 @@
 server:
-  port: 3337
+  port: 3338
 
 spring:
   # 레디스 설정
@@ -36,6 +36,7 @@ springdoc:
   version: '1.0.0'
   api-docs:
     path: /api-docs
+  # 응답쪽 컨텐트타입 consumes
   default-consumes-media-type: application/json
   default-produces-media-type: application/json
   swagger-ui:
@@ -49,7 +50,8 @@ springdoc:
 
 # cors 설정
 cors:
-  allowed: http://pintech.koreait.xyz,http://localhost:3000
+  allowed: https://pintech.koreait.xyz,http://localhost:3000
+
 
 # 유레카 설정
 eureka:

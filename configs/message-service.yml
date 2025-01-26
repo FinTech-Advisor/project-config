@@ -38,11 +38,6 @@ spring:
     hibernate:
       ddlAuto: ${ddl.auto}
 
-  # 타임리프 설정
-  thymeleaf:
-    cache: false
-    prefix: file:src/main/resources/templates/
-
 # 로거 설정
 logging:
   level:
